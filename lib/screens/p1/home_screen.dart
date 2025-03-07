@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pmsn_2025/views/item_food_category_view.dart';
-import 'package:pmsn_2025/views/item_restaurant_view.dart';
+import 'package:pmsn_2025/views/p1/item_food_category_view.dart';
+import 'package:pmsn_2025/views/p1/item_restaurant_view.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

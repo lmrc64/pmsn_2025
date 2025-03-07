@@ -18,6 +18,7 @@ class TodoModel {
         titleTodo: map['titleTodo'],
         descriptionTodo: map['descriptionTodo'],
         dateTodo: map['dateTodo'],
-        statusTodo: map['statusTodo']);
+        statusTodo: false);
+    //statusTodo: map['statusTodo']);
   }
 }
