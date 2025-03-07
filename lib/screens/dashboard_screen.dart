@@ -76,7 +76,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     final SharedPreferences preferences =
                         await SharedPreferences.getInstance();
                     await preferences.setBool('isActive', false);
-                    Navigator.pushReplacementNamed(context, '/login');
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, '/login', (Route route) => false);
                   },
                   child: Container(
                     decoration: BoxDecoration(

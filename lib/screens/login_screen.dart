@@ -194,7 +194,6 @@ class _LoginScreenState extends State<LoginScreen> {
       await preferences.setString(
           'userImage', GlobalValues.userImage.value!.path);
     }
-    print(usernameController.text);
   }
 
   Future<void> _userRegister(BuildContext context) {
